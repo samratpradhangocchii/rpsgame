@@ -11,3 +11,38 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+
+.nav {
+  text-decoration: none;
+  color:green;
+  background-color: lightgray;
+}
+
+
+.text1 {
+  text-decoration: none;
+  color:white;
+}
+
+
+.text1:hover {
+  text-decoration: none;
+  color:white;
+  font-weight: bold;
+}
+
+.flex-box-rps {
+  display:flex;
+  border: 1px solid black;
+  padding: 10px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.flex-box-rps img:hover{
+  box-shadow: 0px 10px 50px teal;
+}
+
